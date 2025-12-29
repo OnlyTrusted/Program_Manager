@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { invoke } from "@tauri-apps/api/tauri";
-import { readDir, readTextFile, writeTextFile, createDir, removeDir } from "@tauri-apps/api/fs";
+import { readDir, readTextFile, writeTextFile, createDir } from "@tauri-apps/api/fs";
 import { appDataDir, join } from "@tauri-apps/api/path";
 import { open } from "@tauri-apps/api/shell";
 
